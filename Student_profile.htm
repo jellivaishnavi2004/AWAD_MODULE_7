@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Student Profile</title>
+</head>
+<body>
+<form method="post" action="student_profile.php">
+<table align="center">
+<tr>
+<td colspan="3" align="center">
+<h2>Student Registration Form</h2>
+</td>
+</tr>
+<tr>
+<td>
+<label>First Name</label>
+</td>
+<td colspan="2">
+<input type="text" maxlength="25" size=20 name="fname">
+</td>
+</tr>
+<tr>
+<td>
+<label>Middle Name</label>
+</td>
+<td colspan="2">
+<input type="text" maxlength="25" size=20 name="mname">
+</td>
+</tr>
+<tr>
+<td>
+<label>Last Name</label>
+</td>
+<td colspan="2">
+<input type="text" maxlength="25" size=20 name="lname">
+</td>
+</tr>
+<tr>
+<td>
+<label>Sur Name</label>
+</td>
+<td colspan="2">
+<input type="text" maxlength="25" size=20 name="sname">
+</td>
+
+</tr>
+<tr>
+<td colspan=3>
+<label>Gender</label>
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="gender" value="Male">
+<label>Male</label>
+</td>
+<td>
+<input type="radio" name="gender" value="Female">
+<label>Female</label>
+</td>
+<td>
+<input type="radio" name="gender" value="Others">
+<label>Others</label>
+</td>
+</tr>
+<tr>
+<td>
+<label>Date of Birth</label>
+</td>
+<td colspan="2">
+<input type="date" name="dob">
+</td>
+</tr>
+<tr>
+<td>
+<label>Mobile Number</label>
+
+</td>
+<td colspan="2">
+<input type="tel" pattern="[0-9]{10}" name="mblno">
+</td>
+</tr>
+<tr>
+<td>
+<label>e-mail ID</label>
+</td>
+<td colspan="2">
+<input type="e-mail" name="mailid">
+</td>
+</tr>
+<tr>
+<td>
+<label>Father Name</label>
+</td>
+<td colspan="2">
+<input type="text" maxlength="50" size="20" name="f_name">
+</td>
+</tr>
+<tr>
+<td>
+<label>Father's Mobile Number</label>
+</td>
+<td colspan="2">
+<input type="tel" pattern="[0-9]{10}" name="f_mblno">
+</td>
+</tr>
+<tr>
+<td>
+<label>Address for Communication</label>
+</td>
+<td colspan=2>
+<textarea rows=5 cols=21 name="address">
+Address Here
+</textarea>
+</td>
+</tr>
+<tr>
+<td colspan="3" align="right">
+<input type="submit" value="Register">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
